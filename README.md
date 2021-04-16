@@ -74,8 +74,8 @@ Dans ce jeu, place à la stratégie ! Chaque personnage possède plus ou moins d
 
 | Nom et numéro personnages | Point de vie | Attaque | Nombres de faiblesses |
 | ------------------------- | ------------ | ------- | --------------------- |
-| 1 - Granma                | 400          | 400     | Normal                |
-| 2 - Baby                  | 400          | 400     | Normal                |
-| 3 -Criminal               | 400          | 400     | Très peu              |
-| 4 - IronMan               | 400          | 400     | Légèrement importante |
-| 5 - B20Biatch             | 400          | 400     | Assez importante      |
+| 1 - Granma                | 380          | 15      | Normal                |
+| 2 - Baby                  | 250          | 20      | Normal                |
+| 3 -Criminal               | 70           | 70      | Très peu              |
+| 4 - IronMan               | 900          | 11      | Légèrement importante |
+| 5 - B20Biatch             | 1500         | 9       | Assez importante      |
