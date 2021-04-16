@@ -10,7 +10,7 @@ LIST_JE = [["Je", "J'", "Pour moi je" , "Je pense sincèrement que je"], ["me ba
 
 # Liste des verbes, sujets en "tu"
 LIST_TU = [["Pour moi tu", 'Tu', "En toute honneteté tu", "Je pense que tu",
-            "A mon humble avis tu", "t'", "te", "ta bouche"], ["es", "vas" "ressembles", "réprésentes", "laveras", "crois", "mangeras", "manges", "pues", "sens", "pense", "repousse", "nettoies", "choisiras", "salira", "salis", "choisira", "vise"],
+            "A mon humble avis tu", "t'", "te", "ta bouche"], ["es", "vas", "ressembles", "réprésentes", "laveras", "crois", "mangeras", "manges", "pues", "sens", "pense", "repousse", "nettoies", "choisiras", "salira", "salis", "choisira", "vise"],
            ["ta mère", "ton honneur", "ta destinée en tant que bouffon dans la street", "une vrai tête de taré" "la viellesse", "la mocheté à son paroxysme", "débile comme tes pieds", "un chasseur de fuck", "le chien affamé", "Ryad", "la lune", "un putain de geek", "comme Mimi Mathy dans un concour de Dunk", "chuter", "éclaté au sol", "un tableau de Picasso", "dans une bouche d'égout", "avec le president", "dans une télé novela", "dans un film d'horreur", "les cités de france naravlo", "suce encore son pouce"]]
 
 

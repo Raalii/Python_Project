@@ -1,4 +1,4 @@
-#The Graphic game function which contain the graphic game 
+# The Graphic game function which contain the graphic game
 # Importe toutes les données relatives au mots, phrases, et complétements
 from data import selectList
 import pygame  # Permettra d'importe la librairie pygame
@@ -39,6 +39,7 @@ def GraphicGame():
     LocalComplement = []
     center_x, center_y = 320, 240  # Coordonnées
     PlayersSelected = 0
+    coherence = 0
 
     # Charger nos joueurs
     player = Combattant('baby')
@@ -82,6 +83,15 @@ def GraphicGame():
         """Fonction qui affiche le texte txt, dans les coordonnées x et y """
         screen.blit(police.render(txt, True, WHITE), (x, y))
 
+    def PrintCoherence(score):
+        """Fonction qui affiche un exte en fonction du score"""
+        if score == 3:
+            return "LA PHRASE EST COHERENTE"
+        elif score == 2:
+            return "LA PHRASE EST MOYENNEMENT COHERENTE"
+        else:
+            return "LA PHRASE N'EST PAS COHERENTE"
+
     running = True
     tour = 0
 
@@ -112,7 +122,7 @@ def GraphicGame():
                     UserInputValue = ''
                     select = False
                 DisplayText(
-                    "JOUEUR 2 VEUILLEZ CHOISIR VOTRE PERSONNAGE", 1600, 800)
+                    "JOUEUR 2 VEUILLEZ CHOISIR VOTRE PERSONNAGE", 1400, 650)
             elif PlayersSelected == 2:
                 player2 = listsOfCharacters[int(UserInputValue) - 1]
                 UserInputValue = ""
@@ -186,10 +196,12 @@ def GraphicGame():
             if tour % 2 == 0:  # Si c'est au joueur 2
                 DisplayText("PUNCHLINE DE " + player2.name + " : " + attackSubj + " "
                             + " " + attackVerb + " " + attackCompl, 100, 10)
+                DisplayText(PrintCoherence(coherence), 100, 40)
                 prompt_rect.x = 1550
             else:  # Si c'est au joueur 1
                 DisplayText("PUNCHLINE DE " + player.name + " : " + attackSubj + " "
                             + " " + attackVerb + " " + attackCompl, 1000, 10)
+                DisplayText(PrintCoherence(coherence), 1000, 40)
                 prompt_rect.x = 100
 
         for event in pygame.event.get():
@@ -225,6 +237,6 @@ def GraphicGame():
 
         # Mettre à jour l'écran
         clock.tick(30)  # Afficher à 30 fps le jeu
-        pygame.display.flip() 
+        pygame.display.flip()
 
     pygame.quit()
