@@ -8,7 +8,7 @@ Après avoir cloné le repo, vous allez lancer à l'aide de python le jeu avec l
 
 ## Comment se déroule le jeu ?
 
-Une fois le programme lancé, vous devriez tomber sur une proposition. En effet, selon vos goûts et désirs il est possible de lancer le jeu via la console, ou en graphique. Il sera toutefois nécessaire de disposer du framework Pygame.
+Une fois le programme lancé, vous devriez tomber sur une proposition. En effet, selon vos goûts et désirs il est possible de lancer le jeu via la console, ou en graphique. Ceci permettra aux utilisateurs ne possèdant pas _pygame_ de pouvoir profiter du jeu. Il sera toutefois nécessaire de disposer du framework Pygame si l'on souhaite jouer en graphique.
 Le jeu nécessite **deux joueurs**, chacun pourra choisir son personnage. Il y a au total 5 personnages. Le but **est de faire l'insulte la plus percutante et la plus intelligente**.
 
 Voici un exemple du visuel **en console :**
@@ -26,7 +26,7 @@ Joueur 1 choisissez votre joueur :
 
 Et **en graphique** :
 
-**Inserer une image**
+![](assets/menu.PNG)
 
 ## Comment se déroule la partie ?
 
@@ -62,7 +62,7 @@ Au tour du joueur 2...
 
 **Et en graphique :**
 
-**Inserer une img**
+![](assets/gameplay.PNG)
 
 **NOTE :** La méthode de séléction (personnages, attaques...) se portera essentiellement sur la séléction des chiffres. Par exemple, pour choisir le joueur 1, on écrira "1" lorsque l'on demandera de séléctionner le joueur que l'on veut prendre. Il en est de même pour les punchlines. Si l'on souhaite utiliser le premier sujet, second verbe et troixième sujet, il suffira d'entrer le nombre 123. On validera grâce à la touche **Entrer**.
 
