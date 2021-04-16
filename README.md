@@ -26,7 +26,7 @@ Joueur 1 choisissez votre joueur :
 
 Et **en graphique** :
 
-![](assets/menu.PNG)
+![](Code/assets/menu.PNG)
 
 ## Comment se déroule la partie ?
 
@@ -62,7 +62,7 @@ Au tour du joueur 2...
 
 **Et en graphique :**
 
-![](assets/gameplay.PNG)
+![](Code/assets/gameplay.PNG)
 
 **NOTE :** La méthode de séléction (personnages, attaques...) se portera essentiellement sur la séléction des chiffres. Par exemple, pour choisir le joueur 1, on écrira "1" lorsque l'on demandera de séléctionner le joueur que l'on veut prendre. Il en est de même pour les punchlines. Si l'on souhaite utiliser le premier sujet, second verbe et troixième sujet, il suffira d'entrer le nombre 123. On validera grâce à la touche **Entrer**.
 
